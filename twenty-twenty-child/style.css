@@ -1,0 +1,356 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    https://diviextended.com/
+ Description:  A child theme of Twenty Twenty WordPress theme.
+ Author:       Elicus Technologies
+ Author URI:   https://elicus.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentytwenty/style.css");
+
+.gv-container-4430 .gv-diy-view {
+	margin: 0px 0px 10px 0;
+	font-family: sans-serif;
+}
+
+.gv-container-4430 .gv-diy-view .cth-avatar {
+	display: inline-block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.gv-container-4430 .gv-diy-view .cth-headline {
+	font-weight: bold;
+}
+
+header.entry-header {
+	padding: 0px!important;
+}
+
+body {
+	font-family: sans-serif;
+}
+.entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt {
+	font-family: sans-serif;
+}
+
+@media (min-width: 1220px) {
+	.p-top-0 {
+		padding-top: 0!important;
+	}
+
+	.p-bottom-0 {
+		padding-bottom: 0!important;
+	}
+}
+
+@media (min-width: 700px) {
+	h1, .heading-size-1 {
+		font-size: 3.5rem;
+	}
+}
+
+li.post-edit span { 
+	display: none;
+}
+
+tr.need-status {
+	border: 1px solid black;
+	color: white;
+	background: black;
+	padding: 10px;
+}
+
+tr.claim-need {
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+}
+.gv-table-single-container {
+	
+}
+
+.gv-table-view-content tbody {
+	border: 0;
+}
+
+.gv-table-single-container table, .gv-table-single-container th, .gv-table-single-container td  {
+	border: 0;
+}
+.gv-table-single-container table th {
+	width: 100%;
+	display: block;
+}
+
+.gv-table-single-container table tr td {
+	display: block;
+}
+
+.gv-button-delete {
+	display: none;
+}
+
+tr.finished-job-link {
+	text-align: center;
+	background: #fffeed;
+}
+
+div.needs-list {
+
+}
+
+div.needs-list ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+div.needs-list ul li {
+	display: inline-block;
+	margin: 0;
+}
+
+.urgency-list ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.urgency-list ul li {
+	display: inline-block;
+}
+
+div.urgency-list p {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.job-assigned-to-header {
+	background-color: lightyellow;
+	text-align: center;
+	color: red;
+}
+
+.claimed-job-header p {
+	background-color: lightyellow;
+	padding: 15px;
+}
+
+tr.delivery-address td {
+	text-transform: uppercase;
+}
+
+.unclaim-form {
+	background-color: #ffebeb;
+}
+.unclaim-form form {
+	padding: 0 10px;
+}
+
+.unclaim-form form h4 {
+	padding: 0;
+	margin: 0;
+}
+
+.warning-about-prescriptions {
+	background-color: #ffebeb;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 20px 0 20px 0;
+}
+
+p.soft-tip, div.soft-tip {
+	padding: 10px;
+	background-color: #f5feff;
+	border-radius: 20px;
+	display: block;
+}
+
+p.soft-warn, div.soft-warn {
+	padding: 10px;
+	background-color: #fffee3;
+	margin: 3px 0;
+	border-radius: 20px;
+}
+
+.gv-widget-custom-content h3 {
+	margin: 10px 0;
+}
+
+.report-post-custom-link {
+	color: #efbbc2;
+}
+
+.gv-list-view-title h3 {
+	font-size: 2.5rem;
+}
+
+h4.command-assigned-to {
+	background-color: #f6ffeb;
+	display: block;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h4.command-unassigned {
+	background-color: #ff9595;
+	display: block;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.gv-field-label {
+	font-weight: bold;
+}
+
+.allocate-prescription-container {
+	padding: 5px;
+	background: #f5feff;
+}
+
+.allocate-prescription-container .gform_wrapper {
+	margin: 0
+}
+
+.allocate-prescription-container .gform_wrapper h3 {
+	margin: 0
+}
+
+.code-word {
+	padding: 10px;
+	background-color: #fffee3;
+	margin: 3px 0;
+	border-radius: 20px;
+}
+
+.single-pharmacy-name {
+	
+}
+
+.gv-container-2385 .gv-table-view-content {
+	margin: 0;
+	border: 1px solid black;
+}
+
+.gv-container-2385 .gv-table-view-content h4 {
+	margin: 0;
+}
+
+#gform_wrapper_19, #gform_wrapper_24, #gform_wrapper_21  {
+	background-color: #fffee3;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid yellow;
+}
+
+#gform_wrapper_19 p {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.help-centre-link i {
+	color:#d83b50;
+}
+
+.featured-media {
+	display: none;
+}
+
+.call-back-entry-container {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.nomargins {
+	margin: 0!important;
+}
+
+.call-back-request-notes-box {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace!important;
+	font-size: 1.6rem;
+}
+
+.like-a-tag {
+	display: inline-block;
+	padding: 5px;
+	background: #efefef;
+	font-weight: bold;
+	font-size: 1.45rem;
+	border-radius: 20px;
+}
+
+.personal-shopping-request-form {
+	border: 1px solid #eee;
+	padding: 0 10px;
+}
+
+.personal-shopping-request-form .gform_previous_button {
+	background-color: #ccc;
+}
+
+.personal-shopping-request-form h2, .personal-shopping-request-form h3, .personal-shopping-request-form h4 {
+	padding: 0;
+	margin: 0;
+}
+
+.personal-shopping-request-form #gform_previous_button_42 {
+	display: none;
+}
+
+.job-done-feed-item {
+	margin-bottom: 20px;
+	border: 1px solid #eee;
+	font-family: sans-serif;
+}
+
+.job-done-feed-item .jd-type-header {
+	margin: 0;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	font-size: 1.65rem;
+	background-color: #efefef;
+	font-weight: bold;
+}
+
+.job-done-feed-item .fas {
+
+}
+
+.job-done-feed-item-headline {
+	padding: 10px;
+}
+
+.job-done-feed-item .jd-job-description {
+	padding: 0 10px;
+	font-size: 1.65rem;
+}
+
+
+.job-done-feed-item .jd-date-logged {
+	padding: 10px 10px;
+	font-size: 1.2rem;
+	color: #bbb;
+}
+
+.job-done-feed-item .jd-icon {
+	display: inline-block;
+	float: right;
+	font-size: 2.0rem;
+}
